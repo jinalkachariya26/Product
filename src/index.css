@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.product-card{
+  height: 370px;
+  padding: 0;
+  margin: 2px;
+  width: 32%;
+  float: left;
+}

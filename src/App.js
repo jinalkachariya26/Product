@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './components/shopping.css';
+import ProductList from './components/productList.jsx'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<React.Fragment>
+			<div className="header">
+				<h2>Your Li'l one's</h2>
+				<h1><i>Style File!</i></h1>
+				<p className="m-0">The one-shop destination</p>
+				<p><b>for all things cute!</b></p>
+			</div>
+			<ProductList></ProductList>
+		</React.Fragment>
+	);
 }
 
 export default App;
